@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a1ad72e-587f-4480-b770-f8c3ae3c57cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/akshay/javaprep/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3AXLbCRT84c8HGTGVWPs5WLtZEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvenNumberFilter.executor": "Run",
+    "Application.ExecutorServiceExample.executor": "Run",
+    "Application.HashMapCollisionExample.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/akshay.bawankule/java-workspace/java-interview-prep",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core-java/src/main/java/com/akshay/interview" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ExecutorServiceExample">
+    <configuration name="EvenNumberFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.streams.filtering.EvenNumberFilter" />
+      <module name="java-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akshay.javaprep.streams.filtering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.concurrency.executor.ExecutorServiceExample" />
+      <module name="java-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akshay.javaprep.concurrency.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapCollisionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.collections.hashmap.HashMapCollisionExample" />
+      <module name="java-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akshay.javaprep.collections.hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="java-interview-prep" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.EvenNumberFilter" />
+      <item itemvalue="Application.ExecutorServiceExample" />
+      <item itemvalue="Application.HashMapCollisionExample" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExecutorServiceExample" />
+        <item itemvalue="Application.EvenNumberFilter" />
+        <item itemvalue="Application.HashMapCollisionExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a1ad72e-587f-4480-b770-f8c3ae3c57cc" name="Changes" comment="" />
+      <created>1772734037899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772734037899</updated>
+    </task>
+    <servers />
+  </component>
+</project>
