@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a1ad72e-587f-4480-b770-f8c3ae3c57cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/akshay/javaprep/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/coding/AnagramString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/coding/PalindromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/streams/EmployeeAdvancedQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akshay/javaprep/streams/EmployeeMediumQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -33,18 +46,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnagramString.executor": "Run",
+    "Application.EmployeeAdvancedQuestions.executor": "Run",
+    "Application.EmployeeEasyQuestions.executor": "Run",
+    "Application.EmployeeMediumQuestions.executor": "Run",
     "Application.EvenNumberFilter.executor": "Run",
     "Application.ExecutorServiceExample.executor": "Run",
     "Application.HashMapCollisionExample.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
+    "Application.StreamsPractice.executor": "Run",
+    "Maven.java-interview-prep [clean,install].executor": "Run",
+    "Maven.java-interview-prep [clean].executor": "Run",
+    "Maven.java-interview-prep [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/akshay.bawankule/java-workspace/java-interview-prep",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,13 +76,13 @@
       <recent name="$PROJECT_DIR$/core-java/src/main/java/com/akshay/interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorServiceExample">
-    <configuration name="EvenNumberFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.streams.filtering.EvenNumberFilter" />
+  <component name="RunManager" selected="Application.AnagramString">
+    <configuration name="AnagramString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.coding.AnagramString" />
       <module name="java-interview-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akshay.javaprep.streams.filtering.*" />
+          <option name="PATTERN" value="com.akshay.javaprep.coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.concurrency.executor.ExecutorServiceExample" />
+    <configuration name="EmployeeAdvancedQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.streams.EmployeeAdvancedQuestions" />
       <module name="java-interview-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akshay.javaprep.concurrency.executor.*" />
+          <option name="PATTERN" value="com.akshay.javaprep.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapCollisionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.collections.hashmap.HashMapCollisionExample" />
+    <configuration name="EmployeeEasyQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.streams.EmployeeEasyQuestions" />
       <module name="java-interview-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akshay.javaprep.collections.hashmap.*" />
+          <option name="PATTERN" value="com.akshay.javaprep.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeMediumQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.streams.EmployeeMediumQuestions" />
+      <module name="java-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akshay.javaprep.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akshay.javaprep.coding.PalindromeString" />
+      <module name="java-interview-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akshay.javaprep.coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,15 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.EvenNumberFilter" />
-      <item itemvalue="Application.ExecutorServiceExample" />
-      <item itemvalue="Application.HashMapCollisionExample" />
+      <item itemvalue="Application.AnagramString" />
+      <item itemvalue="Application.EmployeeAdvancedQuestions" />
+      <item itemvalue="Application.EmployeeEasyQuestions" />
+      <item itemvalue="Application.EmployeeMediumQuestions" />
+      <item itemvalue="Application.PalindromeString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecutorServiceExample" />
-        <item itemvalue="Application.EvenNumberFilter" />
-        <item itemvalue="Application.HashMapCollisionExample" />
+        <item itemvalue="Application.AnagramString" />
+        <item itemvalue="Application.PalindromeString" />
+        <item itemvalue="Application.EmployeeAdvancedQuestions" />
+        <item itemvalue="Application.EmployeeEasyQuestions" />
+        <item itemvalue="Application.EmployeeMediumQuestions" />
       </list>
     </recent_temporary>
   </component>
@@ -121,5 +175,21 @@
       <updated>1772734037899</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/akshay/javaprep/Util/EmployeeUtil.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/akshay/javaprep/coding/AnagramString.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
